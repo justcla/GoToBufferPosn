@@ -54,7 +54,6 @@
     <Compile Include="CommandFilter.cs" />
     <Compile Include="CommandFilterTextViewCreationListener.cs" />
     <Compile Include="Constants.cs" />
-    <Compile Include="GoToBufferPosn.cs" />
     <Compile Include="GoToBufferPosnPackage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -66,7 +66,6 @@ namespace GoToBufferPsn
         /// </summary>
         protected override void Initialize()
         {
-            GoToBufferPosn.Initialize(this);
             base.Initialize();
         }
 
