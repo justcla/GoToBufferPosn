@@ -69,7 +69,6 @@
     <VSCTCompile Include="GoToBufferPosnPackage.vsct">
       <ResourceName>Menus.ctmenu</ResourceName>
     </VSCTCompile>
-    <Content Include="Resources\GoToBufferPosn.png" />
     <Content Include="Resources\GoToBufferPosnPackage.ico" />
     <Content Include="stylesheet.css" />
   </ItemGroup>
