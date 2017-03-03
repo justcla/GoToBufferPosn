@@ -53,9 +53,11 @@ namespace GoToBufferPosn
         private int ActivateGoToBufferPosnCmd(IWpfTextView textView, IEditorOperations editorOperations)
         {
             // Show input box to receive buffer position
-            // Validate value returned (must be a number between 0 and textBuffer.length)
+            var stringInputWindow = new StringInputWindow();
+            string desiredBufferPosnStr = stringInputWindow.ShowDialog("Go To Buffer Position", "Enter position (int)", "");
+            // TODO: Validate value returned (must be a number between 0 and textBuffer.length)
             // convert it to an int
-            int desiredBufferPosn = 10;
+            int desiredBufferPosn = int.Parse(desiredBufferPosnStr);
             textView.Caret.MoveTo(new SnapshotPoint(textView.TextSnapshot, desiredBufferPosn));
             return VSConstants.S_OK;
         }
