@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Id="GoToBufferPsn.Justin Clareburt.f6c50baf-abb6-42bc-af2b-aacce53c7801" Version="1.0" Language="en-US" Publisher="Justin Clareburt" />
-    <DisplayName>GoToBufferPsn</DisplayName>
-    <Description>Empty VSIX Project.</Description>
+    <Identity Id="GoToBufferPosn.f6c50baf-abb6-42bc-af2b-aacce53c7801" Version="1.0" Language="en-US" Publisher="Justin Clareburt" />
+    <DisplayName>Go To Buffer Posn</DisplayName>
+    <Description xml:space="preserve">Go directly to a position in the text buffer</Description>
   </Metadata>
   <Installation>
-    <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[14.0]" />
+    <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[14.0,)" />
   </Installation>
   <Dependencies>
     <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />

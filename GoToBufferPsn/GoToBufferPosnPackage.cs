@@ -16,7 +16,7 @@ using Microsoft.VisualStudio.Shell;
 using Microsoft.VisualStudio.Shell.Interop;
 using Microsoft.Win32;
 
-namespace GoToBufferPsn
+namespace GoToBufferPosn
 {
     /// <summary>
     /// This is the class that implements the package exposed by this assembly.
